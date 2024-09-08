@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Calculator</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="card">
+            <h1 class="heading">Sum Calculator</h1>
+            <h2>Enter a number between 0 and 1 million</h2>
+            <input type="number" id="numberInput" class="input-field" placeholder="Enter a number">
+            <button class="btn btn-animated" onclick="calculateSum()">Calculate Sum</button>
+            <p id="result" class="result mt-4"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

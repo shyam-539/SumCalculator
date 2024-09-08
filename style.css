@@ -1,0 +1,78 @@
+/* Styling for body and background */
+body {
+    background: linear-gradient(135deg, #333, #222); /* Dark gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f0f0;
+}
+
+.card {
+    border-radius: 15px;
+    background: #1e1e1e;
+    padding: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.heading {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    color: #11a3bd; /* Blue accent for heading */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #333;
+    color: #fff;
+}
+
+.input-field:focus {
+    border-color: #11a3bd;
+    box-shadow: 0 0 10px rgba(17, 163, 189, 0.3);
+    outline: none;
+}
+
+.btn-animated {
+    background-color: #11a3bd;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-animated:hover {
+    background-color: #db4e3c;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #f0f0f0;
+}
+
+.animated-number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #db4e3c; /* Red accent for sum result */
+}
